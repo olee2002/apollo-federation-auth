@@ -1,10 +1,7 @@
 # apollo-federation-auth
 
-This is a forked version from https://github.com/ewong/stc-23-apollo-federation.
-
+This is further developed based on this repo: https://github.com/ewong/stc-23-apollo-federation.
 Tutorial: https://www.youtube.com/watch?v=8OH4WieIKz4.
-
-Added work is below:
 
 -The file structure and starting script has been reconfigured.
 
