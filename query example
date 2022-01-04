@@ -6,6 +6,7 @@ mutation {
     }
 }
 
+#Get course with students
 query {
     course(id:1){
         id
@@ -15,4 +16,12 @@ query {
             name
         }
     }
+}
+
+#Get students
+query {
+        students {
+            id
+            name
+        }
 }

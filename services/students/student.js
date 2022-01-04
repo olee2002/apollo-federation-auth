@@ -7,7 +7,7 @@ import cookieParser from "cookie-parser";
 import { ApolloServer } from "apollo-server-express";
 import { buildFederatedSchema } from "@apollo/federation";
 import { typeDefs, resolvers } from "./studentSchema";
-import { authCheck } from "../middleware";
+import { authCheck } from "../middlewareAuth";
 
 const app = express();
 app.use(cookieParser());
